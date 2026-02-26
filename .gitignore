@@ -205,3 +205,35 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Datasets
+data/
+dataset/
+datasets/
+images/
+labels/
+*.zip
+*.tar
+*.tar.gz
+*.7z
+
+# Training outputs
+runs/
+wandb/
+mlruns/
+logs/
+
+# Model weights and exports
+*.pt
+*.pth
+*.onnx
+*.tflite
+*.engine
+
+# ROS build folders (for later)
+build/
+install/
+log/
+
+# macOS
+.DS_Store
